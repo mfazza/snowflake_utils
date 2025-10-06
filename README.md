@@ -32,6 +32,9 @@ The utilities in this repository help with:
 
 ## Available Utilities
 
+### Cost Management
+- `GET_WAREHOUSE_CREDIT_COST_SINCE`: Procedure that calculates total credit consumption for each warehouse since a specified timestamp, helping track and analyze warehouse costs.
+
 ### Schema Analysis
 - `SAMPLE_SCHEMA_COLUMNS`: Procedure that samples data from all columns in a schema, helping understand data patterns and content across tables.
 
