@@ -36,7 +36,7 @@
 * - Still needs error handling for edge cases (e.g., no tables, no columns)
 *
 *******************************************************************************/
-CREATE OR REPLACE TEMPORARY PROCEDURE SAMPLE_SCHEMA_COLUMNS(DATABASE_NAME VARCHAR, SCHEMA_NAME VARCHAR) -- noqa: 
+CREATE OR REPLACE PROCEDURE SAMPLE_SCHEMA_COLUMNS(DATABASE_NAME VARCHAR, SCHEMA_NAME VARCHAR) -- noqa: 
 RETURNS TABLE(
     TABLE_NAME STRING,
     COLUMN_NAME STRING,
